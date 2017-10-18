@@ -1,0 +1,31 @@
+
+/*utilizando el SELECTOR UNIVERSAL*/
+/*resear los elementos HTML*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+div{
+	margin: 10px; 
+	padding: 5px;
+	height: 120px;
+	width: 95%;
+	display: block;
+	box-sizing: border-box;
+
+}
+/*utilizando el SELECTOR DE ID*/
+#black{
+	background-color: black;
+	color: white; /*color de letra*/
+}
+/*utilizando el SELECTOR DE CLASE*/
+ .amarillo{
+	background-color: gold;
+}
+
+/*cambiando tamaño de fuente al h1*/
+h1{
+	font-size: 14pt;
+}
